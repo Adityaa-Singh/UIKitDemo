@@ -24,7 +24,7 @@ extension UIColor {
         alpha: 1.0
     )
 
-    static let appBackground = UIColor.systemBackground
+    static let appBackground = UIColor.lightGray.withAlphaComponent(0.3)
 
     static let appText = UIColor.label
 
